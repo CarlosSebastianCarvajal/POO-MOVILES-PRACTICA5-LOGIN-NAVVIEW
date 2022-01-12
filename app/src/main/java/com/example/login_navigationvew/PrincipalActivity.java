@@ -39,7 +39,7 @@ public class PrincipalActivity extends AppCompatActivity implements
         toolbar1 = findViewById(R.id.toolbar_admin);
         setSupportActionBar(toolbar1);
         getSupportActionBar().setTitle("");
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_home);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_light);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
@@ -47,11 +47,16 @@ public class PrincipalActivity extends AppCompatActivity implements
         Menu m = navView.getMenu();
         if(b.getString("tipo").equals("A")){
             m.findItem(R.id.Umenu_section_2).setTitle("Consumo de Clientes");
+            m.findItem(R.id.Umenu_section_2).setIcon(R.drawable.ic_consumo_cli);
             m.findItem(R.id.Umenu_section_3).setTitle("Clientes");
+            m.findItem(R.id.Umenu_section_3).setIcon(R.drawable.ic_mis_clientes);
+
 
         }else{
             m.findItem(R.id.Umenu_section_2).setTitle("Mi Consumo");
+            m.findItem(R.id.Umenu_section_2).setIcon(R.drawable.ic_mi_consumo);
             m.findItem(R.id.Umenu_section_3).setTitle("Mi Informacion");
+            m.findItem(R.id.Umenu_section_3).setIcon(R.drawable.ic_info);
         }
         navView.setNavigationItemSelectedListener(this);
 
