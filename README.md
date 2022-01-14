@@ -19,11 +19,11 @@ En la siguiente imagen se muestra el ingreso de datos (Usuario y contraseña) de
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA5-LOGIN-NAVVIEW/blob/main/capturas/Screenshot_1642173900.png)
 
-Al presionar iniciar sesion y si los datos correctos no redirige a la ¨pantalla principal¨ aunque esta vacia dado que no se ha cargado ningun fragment:
+Al presionar iniciar sesion y si los datos son correctos nos redirige a la ¨pantalla principal¨ aunque esta vacia dado que no se ha cargado ningún fragment:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA5-LOGIN-NAVVIEW/blob/main/capturas/Screenshot_1642173908.png)
 
-Al presionar el boton de Menú se puede apreciar La imagen y nombre del usuario logeado, además de su lista de opciones disponibles:
+Al presionar el botón de Menú se puede apreciar La imagen y nombre del usuario logeado, además de su lista de opciones disponibles:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA5-LOGIN-NAVVIEW/blob/main/capturas/Screenshot_1642173928.png)
 
@@ -31,7 +31,7 @@ Se ingresó datos de otro usuario, en este caso de tipo Consumidor:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA5-LOGIN-NAVVIEW/blob/main/capturas/Screenshot_1642174332.png)
 
-Se aprecia tambien que se muestra la imagen yh nombre del usuario, sin embargo para este usuario se ha cambiado dinamicamente la lista de opciones del usuario:
+Se aprecia también que se muestra la imagen y nombre del usuario, sin embargo para este usuario se ha cambiado dinamicamente la lista de opciones del usuario:
 
 ![alt text](https://github.com/CarlosSebastianCarvajal/POO-MOVILES-PRACTICA5-LOGIN-NAVVIEW/blob/main/capturas/Screenshot_1642174364.png)
 
