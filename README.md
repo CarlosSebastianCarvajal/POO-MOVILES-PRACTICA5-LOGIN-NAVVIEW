@@ -3,8 +3,7 @@ Desarrollo de una aplicación nativa Android que permite simular un Login de Usu
 
 DETALLES DE LA APLICACIÓN:
 Para las pruebas de la aplicación se utilizo una base de datos no relacional  utilizada anteriormente en un proyecto distinto (utilice esta base de datos dado que ya contenia algunos datos de usuario y con tipos o perfiles de usuario distintos y estaba disponible como una API REST)
-Los datos estan disponibles en: ![https://smart-meter-project-35c6b-default-rtdb.firebaseio.com/Usuarios.json](https://smart-meter-project-35c6b-default-rtdb.firebaseio.com/Usuarios.json)
-
+Los datos estan disponibles en: ![https://smart-meter-project-35c6b-default-rtdb.firebaseio.com/Usuarios.json]
 Se utilizo Volley para obtener los datos.
 
 CAPTURAS DE FUNCIONAMIENTO DE LA APLICACIÓN:
